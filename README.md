@@ -44,6 +44,14 @@ git clone https://github.com/your-username/stock-price-predictor.git
 cd stock-price-predictor
 pip install -r requirements.txt
 
+🧪 Run Locally
+To launch the web app:
+
+streamlit run web_stock_price_predictor.py
+Enter any stock ticker and see the predicted graph.
+
+
+
 ├── web_stock_price_predictor.py   # Streamlit web app
 ├── stock_model.ipynb              # Model training and analysis
 ├── Latest_stock_price_model.keras # Saved LSTM model
